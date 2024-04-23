@@ -1,0 +1,35 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgba(0, 20, 20, 0.2);
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 24px;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  .logo img{
+    width:50px;
+    height:40px;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+  }
+
+  #search-bar input{
+    min-width: 250px;
+    height: 30px;
+    margin: 0, 15px;
+  }

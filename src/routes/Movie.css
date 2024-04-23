@@ -1,0 +1,70 @@
+.main-container{
+    height:100dvh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header{
+    justify-self:flex-start;
+}
+.space{
+    flex-grow:1;
+}
+
+.content{
+    justify-content: flex-end;
+    background: rgb(60,60,65);
+    background: linear-gradient(0deg, rgba(35, 35, 40, 0.8) 0%, rgba(35, 35, 40,0.60) 80%, rgba(35, 35, 40,0) 100%);
+    padding: 25px 100px 50px 100px;
+}
+
+.info{
+    display:flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 5px 0px 15px 0px;
+}
+.title
+.title, .overview p{
+max-width:800px;
+}
+
+.overview{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title h1{
+    text-transform: uppercase;
+}
+.title h2{
+    font-weight: 200;
+}
+
+
+.action-btn button{
+    margin: 20px;
+    padding: 20px 40px;
+}
+.watch{
+    background-color: rgba(24, 24, 24, 0.24);
+    color:rgb(0, 252, 252);
+}
+.watch:hover{
+    background-color: rgb(0, 252, 252);
+    color:white;
+
+}
+
+.add-to-list{
+    background-color: rgba(24, 24, 24, 0.24);
+}
+.add-to-list:hover{
+    background-color: rgba(24, 24, 24, 0.5);
+
+}

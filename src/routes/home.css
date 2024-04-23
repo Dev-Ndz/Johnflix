@@ -1,0 +1,15 @@
+main{
+    max-width:1600px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.miniatures{
+    margin:20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

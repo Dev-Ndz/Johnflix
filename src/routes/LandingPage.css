@@ -1,0 +1,36 @@
+main.landing{
+    display: flex;
+    flex-direction: column;
+    margin : 0px;
+    background-color: rgba(0, 0, 0, 0.199);
+    max-width: 100%;
+}
+
+
+
+.title-container h1{
+    margin : 0 auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title-container h1:hover{
+    color:rgb(0, 252, 252);
+}
+
+
+.title-container{
+    height: 66vh;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin : 0 25px;
+
+}
+.action-btn *{
+    margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
