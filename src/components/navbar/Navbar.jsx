@@ -8,7 +8,7 @@ const Navbar = () => {
         <header>
 
             <Link to="/home" className="logo">
-                <img src="./AmaJohn-Prime.svg" alt="logo" />
+                <img src="/AmaJohn-Prime.svg" alt="logo" />
                 <div>AmaJhon Prime</div>
             </Link>
 

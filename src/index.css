@@ -40,7 +40,7 @@ button {
 }
 
 .background{
-  background-image: url('./bg.avif');
+  background-image: url('/bg.avif');
   background-size: cover;
   width:100vw;
   height:100vh;
